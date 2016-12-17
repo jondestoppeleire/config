@@ -1,0 +1,14 @@
+# .bash_profile for Assimov Dark theme
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+
+export PATH
+
+export PS1="\[\033[38;5;100m\][\[$(tput sgr0)\]\[\033[38;5;106m\]\u\[$(tput sgr0)\]\[\033[38;5;100m\]@\[$(tput sgr0)\]\[\033[38;5;106m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;148m\]\W\[$(tput sgr0)\]\[\033[38;5;100m\]]\[$(tput sgr0)\]\[\033[38;5;148m\]\\$\[$(tput sgr0)\]"
