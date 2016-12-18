@@ -11,4 +11,4 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
 
-export PS1="\[\033[38;5;109m\][\[$(tput sgr0)\]\[\033[38;5;108m\]\u@\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;107m\]\W\[$(tput sgr0)\]\[\033[38;5;109m\]]\[$(tput sgr0)\]\[\033[38;5;108m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+export PS1="\[\033[38;5;109m\][\u@\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;108m\]\W\[$(tput sgr0)\]\[\033[38;5;109m\]]\[$(tput sgr0)\]\[\033[38;5;108m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
